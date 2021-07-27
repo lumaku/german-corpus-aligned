@@ -1,0 +1,9 @@
+librivox-metadata/books-German.json filter=lfs diff=lfs merge=lfs -text
+librivox_swc/utt2spk filter=lfs diff=lfs merge=lfs -text
+librivox_swc/wav.scp filter=lfs diff=lfs merge=lfs -text
+librivox_swc/librivox_utt2spk filter=lfs diff=lfs merge=lfs -text
+librivox_swc/metadata filter=lfs diff=lfs merge=lfs -text
+librivox_swc/segments filter=lfs diff=lfs merge=lfs -text
+librivox_swc/spk2utt filter=lfs diff=lfs merge=lfs -text
+librivox_swc/text filter=lfs diff=lfs merge=lfs -text
+librivox_swc/utt2num_frames filter=lfs diff=lfs merge=lfs -text
