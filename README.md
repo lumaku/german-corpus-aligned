@@ -12,6 +12,7 @@ This repository contains pre-processed text and alignments. Both corpora are com
 * SWC: [German Spoken Wikipedia Corpus](https://nats.gitlab.io/swc/)
 * Librivox: from the IDs in the metadata file `books-German.json`. Audiofiles can be automatically retrieved via `id` using the LibriVox API, e.g. https://librivox.org/api/feed/audiobooks/?id=82&format=json , and then downloading the URL.
 
+For librivox, the naming scheme is `librivox_{book_id}_{chapter}_{utterance_id}`. The separate file `librivox_utt2spk` contains speaker information.
 
 Further description can be found in the CTC segmentation paper (on [Springer Link](https://link.springer.com/chapter/10.1007%2F978-3-030-60276-5_27), on [ArXiv](https://arxiv.org/abs/2007.09127))
 
