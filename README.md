@@ -14,6 +14,8 @@ This repository contains pre-processed text and alignments. Both corpora are com
 
 For librivox, the naming scheme is `librivox_{book_id}_{chapter}_{utterance_id}`. The separate file `librivox_utt2spk` contains speaker information.
 
+A pretrained ASR model (Transformer) is in the Releases section of this repository.
+
 Further description can be found in the CTC segmentation paper (on [Springer Link](https://link.springer.com/chapter/10.1007%2F978-3-030-60276-5_27), on [ArXiv](https://arxiv.org/abs/2007.09127))
 
 

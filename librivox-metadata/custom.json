@@ -139,5 +139,13 @@
     },
     "11151": {
         "url_text_source": "https://gutenberg.spiegel.de/buch/samtliche-schriften-band-1-1911-1921-1943/251"
+    },
+    "11241": {
+        "skip": true,
+        "skip_reason": "Diese Datei scheint nicht mehr verfügbar zu sein."
+    },
+    "12507": {
+        "skip": true,
+        "skip_reason": "Diese Datei scheint nicht mehr verfügbar zu sein."
     }
 }

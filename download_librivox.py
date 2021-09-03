@@ -87,7 +87,9 @@ class LibriVoxBook:
             os.system("ffmpeg -i " + str(audio_file) + " -ac 1 -ar 16000 " + str(wav_dir / fname))
 
 
-
+# Note that the data hoster has download limits,
+# and that you may have to restart the download
+# after some time.
 with open(GERMAN_BOOKS_PATH) as f:
     librivox_booklist = json.load(f)
 book_dict = {}
