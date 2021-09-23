@@ -10,7 +10,7 @@ Alignments on Librivox and Spoken Wikipedia Corpus (SWC) with CTC segmentation:
 This repository contains pre-processed text and alignments. Both corpora are combined to one recipe, audio file and corpus can be attributed by file names and utterance IDs. The audio files can be downloaded separately:
 
 * SWC: [German Spoken Wikipedia Corpus](https://nats.gitlab.io/swc/)
-* Librivox: from the IDs in the metadata file `books-German.json`. Audiofiles can be automatically retrieved via `id` using the LibriVox API, e.g. https://librivox.org/api/feed/audiobooks/?id=82&format=json , and then downloading the URL.
+* Librivox: The audio files can be retrieved via IDs in the metadata file `books-German.json` and then automatically retrieved via `id` using the LibriVox API, e.g. https://librivox.org/api/feed/audiobooks/?id=82&format=json , and then downloading the URL. As downloading the files separately takes time, there is an MP3 boundle is available at [the MMK website](https://www.ei.tum.de/mmk/verschiedenes/german-speech-corpus-aligned-with-ctc-segmentation/).
 
 For librivox, the naming scheme is `librivox_{book_id}_{chapter}_{utterance_id}`. The separate file `librivox_utt2spk` contains speaker information.
 
